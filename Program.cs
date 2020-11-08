@@ -14,6 +14,7 @@ namespace BlobQuickstartV12 {
                 .AddCommandLine(args)
                 .Build();
 
+            // Enable TLS 1.2 before connecting to Azure Storage -- Note that your operating system must support TLS 1.2 (Azure App Service does so by default)
             System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolType.Tls12;
 
             var cn = config.GetValue<String>("StorageSAS");
