@@ -7,7 +7,7 @@ Create an appsettings.json file with actual values from your Azure Storage Accou
 ```
 {
   "StorageSAS": "<Storage SAS or Connection String>",
-  "ContainerName": "<Container Name"
+  "ContainerName": "<Container Name>"
 
 }
 ```
