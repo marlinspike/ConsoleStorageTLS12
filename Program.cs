@@ -6,7 +6,7 @@ using System;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace BlobQuickstartV12 {
+namespace ConsoleStorageTLS {
     class Program {
         static async Task Main(string[] args) {
             IConfiguration config = new ConfigurationBuilder()
